@@ -45,10 +45,17 @@ h1 {
 
 fieldset {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  text-align: left;
   padding: 4px;
   border: none;
   margin-bottom: 200px;
+}
+
+fieldset #habilidades {
+  margin-left: 150px;
+  margin-top: 0;
+  margin-inline-start: 200px;
 }
 
 img {
@@ -69,7 +76,10 @@ p {
 .js,
 .c,
 .ingles,
-.espanha {
+.espanha,
+.node,
+.java,
+.angular {
   height: 50px;
   margin-top: 10px;
 }
